@@ -40,5 +40,5 @@ print("===================================")
 print(povertyestimates['Pov_2012'].mean())
 povertyestimates2012group=povertyestimates.groupby('Region')
 povertyestimates2012=povertyestimates2012group.aggregate({'Pov_2012':np.mean})
-
+print("===================================")
 print(povertyestimates2012)
